@@ -4385,7 +4385,7 @@ input, select, textarea {
 
 	#copyright {
 		color: #ffffff;
-		position: relative;
+		position:relative;
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -4396,7 +4396,7 @@ input, select, textarea {
 		text-align: center;
 		text-transform: uppercase;
 		margin: 4rem auto 8rem auto;
-		width: calc(100% - 4rem);
+		width: calc(100% - rem);
 		max-width: 72rem;
 		z-index: 2;
 	}
@@ -4445,13 +4445,14 @@ input, select, textarea {
 			list-style: none;
 			margin: 0;
 			padding-left: 0;
+			padding-right: 0;
 		}
 
 			#copyright ul li {
 				border-left: solid 2px;
 				display: inline-block;
 				line-height: 1;
-				margin-left: 1rem;
+				margin-left: .5rem;
 				padding-left: 1rem;
 			}
 

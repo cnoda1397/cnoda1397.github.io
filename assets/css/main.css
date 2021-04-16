@@ -4453,6 +4453,7 @@ input, select, textarea {
 				display: inline-block;
 				line-height: 1;
 				margin-left: .5rem;
+				margin-right: 0;
 				padding-left: 1rem;
 			}
 

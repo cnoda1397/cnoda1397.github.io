@@ -4399,6 +4399,7 @@ input, select, textarea {
 		width: calc(100% - rem);
 		max-width: 72rem;
 		z-index: 2;
+		display: block;
 	}
 
 		#copyright input, #copyright select, #copyright textarea {

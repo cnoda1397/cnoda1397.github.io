@@ -2802,15 +2802,19 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
+		display:flex;
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		align-items: baseline;
+		align-content: center;
+		justify-content: center;
 	}
 
 		ul.icons li {
-			display: inline-block;
+			display: flex;
 			padding: 0 0.5rem 0 0;
-			vertical-align: middle;
+			
 		}
 
 			ul.icons li:last-child {
@@ -3277,7 +3281,10 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto,								auto,														auto 175%;
+				background-size: auto,								auto,														auto 120%;
+			}
+			#intro{
+				min-height: 50vh !important;
 			}
 
 		}
